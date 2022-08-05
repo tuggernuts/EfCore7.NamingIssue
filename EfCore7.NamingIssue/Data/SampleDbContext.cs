@@ -10,7 +10,7 @@ public class SampleDbContext : DbContext
 {
     public DbSet<Company> Companies { get; set; }
     public DbSet<Country> Countries { get; set; }
-    public DbSet<Aircraft> Aircrafts { get; set; }
+    public DbSet<Aircraft> Aircraft { get; set; }
     public DbSet<AirplaneSingle> AirplaneSingles { get; set; }
     public DbSet<AirplaneMulti> AirplaneMultis { get; set; }
     public DbSet<RotorCraft> RotorCrafts { get; set; }
